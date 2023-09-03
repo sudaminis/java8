@@ -4,15 +4,11 @@ import data.Student;
 import data.StudentDataBase;
 
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class StreamsFilterExample {
-    public static List<Student> filterStudents() {
-        return StudentDataBase.getAllStudents().stream() // stream<Student>
-                .filter(student -> student.getGender().equals("female")) //Stream<Student> only female gender
-                .filter(student -> student.getGradeLevel() >= 3.9)
-                .collect(Collectors.toList());
-    }
+
     public static void main(String[] args) {
         filterStudents().forEach(System.out::println);
 
@@ -22,5 +18,11 @@ public class StreamsFilterExample {
         //sum of all elements of stream, perform multiplication of all elements of stream
         //takes two parameters ( default value, binaryOperator<T>)
         //binaryOperator takes two inputs of same type and returns output of the same type.
+    }
+
+    private static List<Student> filterStudents() {
+        return StudentDataBase.getAllStudents().stream()
+                .filter(student -> student.getGender().equalsIgnoreCase("Female"))
+                .collect(Collectors.toList());
     }
 }

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="537fd285-89f8-4e4c-998a-9045ca10f660" name="Changes" comment="java 8 concepts">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsComparatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsComparatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsFilterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsFilterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsFlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsFlatMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsLimitSkipExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsLimitSkipExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsMapReduceExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsMapReduceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsMatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsMatchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamsMinMaxExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamsMinMaxExample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QhWc2T7jF2MwVrkFtJlcrmnCcx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaClassFindUsagesOptions.isDerivedInterfaces&quot;: &quot;true&quot;,
+    &quot;JavaClassFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;false&quot;,
+    &quot;JavaClassFindUsagesOptions.isUsages&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.StreamsPartitioningByExample">
+    <configuration name="StreamGroupingByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.terminal.StreamGroupingByExample" />
+      <module name="java-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsCountingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.terminal.StreamsCountingExample" />
+      <module name="java-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsMinByMaxByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.terminal.StreamsMinByMaxByExample" />
+      <module name="java-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsPartitioningByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.terminal.StreamsPartitioningByExample" />
+      <module name="java-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsSumAvgExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.terminal.StreamsSumAvgExample" />
+      <module name="java-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamsPartitioningByExample" />
+        <item itemvalue="Application.StreamGroupingByExample" />
+        <item itemvalue="Application.StreamsSumAvgExample" />
+        <item itemvalue="Application.StreamsMinByMaxByExample" />
+        <item itemvalue="Application.StreamsCountingExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="537fd285-89f8-4e4c-998a-9045ca10f660" name="Changes" comment="" />
+      <created>1685806370183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685806370183</updated>
+    </task>
+    <task id="LOCAL-00001" summary="java 8 concepts">
+      <created>1685815790301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685815790301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java 8 concepts">
+      <created>1692567657540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692567657540</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java 8 concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 8 concepts" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/optional/OptionalOrElseExample.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

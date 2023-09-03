@@ -11,28 +11,26 @@ import java.util.stream.Collectors;
 public class StreamsExample {
 
     public static void main(String[] args) {
-        Map<String, List<String>> map = StudentDataBase.getAllStudents()
-                .stream().filter(student->student.getGradeLevel() >= 3).
-                collect(Collectors.toMap(Student::getName,Student::getActivities));
 
-        System.out.println("Map = " +map);
+        // create a map of student and activities
+        Map<String, List<String>> studentActivities = StudentDataBase.getAllStudents().stream()
+                .collect(Collectors.toMap(Student::getName, Student::getActivities));
 
-        //enhance this use case by creating a predicate of student
-        Predicate<Student> grade = (s) -> s.getGradeLevel() >= 3;
+        // get students that are in certain grade level
+        List<String> studentNames = StudentDataBase.getAllStudents().stream()
+                .filter(student -> student.getGradeLevel() > 3 ).map(Student::getName).collect(Collectors.toList());
 
-        Map<String, List<String>> map1 = StudentDataBase.getAllStudents()
-                .stream().filter(grade).
-                collect(Collectors.toMap(Student::getName,Student::getActivities));
 
-        System.out.println("Map1 = " +map1);
+        Predicate<Student> gradeFilter = ( student -> student.getGradeLevel() >= 3);
+        Predicate<Student> gpaFilter = ( student -> student.getGpa() >= 3.9);
 
-        // map method to change the type of stream from one type to another
-        // flatmap method converts one type to another
-        // used where each element of stream is a collection or an array
+        // apply a chain of filters to get student name and a list of activities for students with grade level > 3 and gpa > 3.9
+        Map<String, List<String>> filteredStudentActivities = StudentDataBase.getAllStudents().stream()
+                .filter(gradeFilter)
+                .filter(gpaFilter)
+                .collect(Collectors.toMap(Student::getName, Student::getActivities));
 
-    }
-    public static List<String> getAllStudentNames() {
-        return StudentDataBase.getAllStudents().stream().map(Student::getName)
-                .map(String::toUpperCase).collect(Collectors.toList());
+        System.out.println(filteredStudentActivities);
+
     }
 }
