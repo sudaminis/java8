@@ -37,13 +37,23 @@ public class DefaultMethodsExample2 {
         list.sort(gradeComparator.thenComparing(nameComparator));
         list.forEach(studentConsumer);
     }
+
+    public static void sortWithNullValues(List<Student> list) {
+        Comparator<Student> studentComparator = Comparator.nullsFirst(nameComparator);
+        list.sort(studentComparator);
+        list.forEach(studentConsumer);
+    }
     public static void main(String[] args) {
         List<Student> allStudents = getAllStudents();
 
         System.out.println("Before sort : ");
         allStudents.forEach(studentConsumer);
-        sortByName(allStudents);
+        //sortByName(allStudents);
 
-        comparatorChaining(allStudents);
+        //comparatorChaining(allStudents);
+
+        // how to handle nulls when you are trying to perform sort using comparator
+
+        sortWithNullValues(allStudents);
     }
 }
